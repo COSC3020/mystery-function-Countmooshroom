@@ -12,3 +12,8 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+# Answer
+This function takes an array as an argument.  If the array has only one item, it returns that item.  Otherwise, it makes a recursive call to run the function again with the same array except the first item is taken off.  Then, if the return value from the recursion is greater than the first item in the array, it returns the value from the recursion.  Otherwise, it returns the first item in the array.
+
+Ultimately, the function just finds the highest value in an array.
